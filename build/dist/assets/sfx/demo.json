@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "target\\demo.ogg",
+    "target\\demo.m4a",
+    "target\\demo.mp3",
+    "target\\demo.ac3"
+  ],
+  "spritemap": {
+    "spin": {
+      "start": 0,
+      "end": 20.06,
+      "loop": false
+    },
+    "stop": {
+      "start": 22,
+      "end": 24.29984126984127,
+      "loop": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Demo-Phaser</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+    </head>
+    <body>
+        <script src='lib/phaser.js'></script>
+        <script src='lib/game.js'></script>
+        <div id="phaserDemo"></div>
+        <script type="text/javascript">
+            var game;
+            window.onload = function () {
+                var config = {
+                    type: Phaser.AUTO,
+                    width: 1280,
+                    height: 680,
+                    backgroundColor: '#FF0000',
+                    parent: 'phaserDemo',
+                    scene: [Game],
+                    pixelArt: true,
+                    audio: {
+                        disableWebAudio: true
+                    }
+                }
+                game = new Phaser.Game(config);
+            };
+        </script>
+    </body>
+</html>

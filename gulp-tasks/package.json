@@ -1,0 +1,26 @@
+{
+    "bundleDependencies": false,
+    "dependencies": {
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-bump": "^2.7.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-load-plugins": "^1.5.0",
+        "gulp-maven-deploy": "^1.0.1",
+        "gulp-replace": "^0.6.1",
+        "gulp-sequence": "^0.4.6",
+        "gulp-sourcemaps": "2.4.1",
+        "gulp-svn": "^1.0.8",
+        "gulp-typescript": "^3.1.6",
+        "gulp-uglify": "^2.1.2",
+        "gulp-util": "^3.0.8",
+        "gulp-zip": "^4.0.0",
+        "merge2": "^1.0.3",
+        "phaser": "latest",
+        "typescript": "latest"
+    },
+    "deprecated": false,
+    "description": "Gulp Tasks",
+    "name": "gulp-tasks",
+    "version": "1.0.9"
+}
